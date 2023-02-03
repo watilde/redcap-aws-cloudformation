@@ -132,11 +132,11 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       CidrBlock: !Ref d2cidr
-      AvailabilityZone: !Join [ "", [ !Ref 'AWS::Region', "b" ] ]
+      AvailabilityZone: !Join [ "", [ !Ref 'AWS::Region', "c" ] ]
       VpcId: !Ref 'vpc27bc775f'
       Tags:
         - Key: Name
-          Value: Data B
+          Value: Data C
   subnet864d50dc:
     Type: AWS::EC2::Subnet
     Properties:
